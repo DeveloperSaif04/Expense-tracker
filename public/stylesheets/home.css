@@ -23,3 +23,39 @@
   } 
   
   
+
+    @media (max-width: 600px) {
+      .main {
+        width: 100vw;
+        height: 85vh;
+        display: flex;
+        justify-content: center;
+      }
+    
+      .left {
+        width: 100%; 
+      }
+    
+      .right {
+        width: 100%; 
+        padding-top: 10vmax;
+        padding-left: 3vmax;
+        padding-right: 3vmax;
+      }
+    
+      .right p {
+        font-size: 12px;
+      }
+    
+      .right h1 {
+        font-size: 18px;
+      }
+    
+      .left img {
+        width: 100%; 
+        height: auto; 
+      }
+    }
+    
+    
+  

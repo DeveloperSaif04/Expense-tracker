@@ -13,3 +13,20 @@ nav ul li a{
     color: white;
     
 }
+
+@media (max-width: 600px) {
+
+    nav ul{
+        /* background-color: burlywood; */
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        background-color: rgb(53, 35, 118);
+        padding-right: 2vmax;
+        padding: 1vmax;
+    }
+
+    
+}

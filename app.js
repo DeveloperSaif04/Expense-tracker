@@ -4,11 +4,11 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+require("dotenv").config({path:"./.env"});
 require("./models/config")
 const passport=require("passport")
 const session = require("express-session")
 const User=require("./models/userModel")
-require("dotenv").config({path:"./.env"});
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
