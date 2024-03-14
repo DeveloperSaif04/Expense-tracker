@@ -1,7 +1,10 @@
 const mongoose= require("mongoose")
 
 mongoose
-.connect(process.env.DATABASE)
+.connect(process.env.DATABASE,{
+    dbName: "expense tracker",
+
+})
 .then(()=>{
     console.log("db connected", process.env.DATABASE)
 })
