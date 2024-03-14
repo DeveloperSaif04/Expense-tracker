@@ -2,7 +2,7 @@ const mongoose= require("mongoose")
 
 mongoose
 .connect(process.env.DATABASE,{
-    dbName: "expense tracker",
+    dbName: "EXPENSE",
 
 })
 .then(()=>{
